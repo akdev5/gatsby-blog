@@ -4,9 +4,10 @@
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your site’s directory and start it up.
 
     ```shell
+    npm install
     gatsby develop
     ```
 
