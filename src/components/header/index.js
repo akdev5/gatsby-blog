@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 const Header = () => (
   <div
@@ -26,7 +26,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          The Gray Web Blog
+          The Web Blog
         </Link>
       </h1>
     </div>
