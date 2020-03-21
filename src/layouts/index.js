@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 
 import Header from '../components/header'
 
@@ -15,6 +16,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
+
     <div
       style={{
         margin: '0 auto',
@@ -23,6 +25,14 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0,
       }}
     >
+      <div
+        style={{
+          marginBottom: '20px'
+        }}
+      >
+        <Link to="/">Home</Link>{'  '}
+        <Link to="/account">My account</Link>
+      </div>
       {children}
     </div>
   </div>
